@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <link rel="stylesheet" href="./tmp/figma-plugin-ds.css">
+        <link rel="stylesheet" href="./tmp/styles.css">
+    </head>
+    <body>
+
+    <div class="p-xxsmall">
+        <div class="label">Palette ID or URL</div>
+        <div class="input input--with-icon mb-xxsmall palette-id-input">
+            <div class="icon icon--hyperlink"></div>
+            <input id="palette-id" type="input" class="input__field" value="">
+        </div>
+
+<!--        <div class="label">Shape (optional)</div>-->
+<!--        <select id="shape" class="select-menu mb-xxsmall">-->
+<!--            <option value="">Please select a shape...</option>-->
+<!--            <option value="square">Square</option>-->
+<!--            <option value="circle" >Circle</option>-->
+<!--        </select>-->
+
+        <div class="switch">
+            <input class="switch__toggle" type="checkbox" id="color-styles">
+            <label class="switch__label" for="color-styles">Color Styles</label>
+        </div>
+
+        <div class="flex p-xxsmall mb-xsmall">
+            <button id="cancel" class='button button--secondary mr-xxsmall'>Cancel</button>
+            <button id="create-colors" class='button button--primary'>Create colors</button>
+        </div>
+    </div>
+
+    <script src="./tmp/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "Color Hunt",
+  "id": "1075555223065407638",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "index.html",
+  "editorType": ["figma"]
+}
